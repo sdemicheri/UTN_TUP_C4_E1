@@ -27,7 +27,7 @@ arbitro4 = input("ingrese el nombre del cuarto arbitro")
 cancha = input("ingrese el nombre del cancha")
 fecha = input("ingrese la fecha")
 hora = input("ingrese la hora")
-telefono = input("ingrese el numero telefonico de la guia")
+telefono = input("ingrese el numero telefonico de la liga")
 correo = input("ingrese el correo electronico de la liga")
 
 arbitros(arbitro1,arbitro2,arbitro3,arbitro4)
