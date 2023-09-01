@@ -1,0 +1,21 @@
+def datos():
+    nombre = input("Nombre completo del paciente:")
+    fechaNacimiento = input("Fecha de nacimiento del paciente:")
+    direccion = input("Direccion de la clinica:")
+    nombreMedicamento = input("Nombre del medicamento:")
+    dosisMedicamento = input("Dosis del medicamento:")
+    instruccionesMedicamento = input("Instrucciones de uso del medicamento:")
+    turno = input("Proximo turno del paciente")
+    receta(nombre,fechaNacimiento,direccion,nombreMedicamento,dosisMedicamento,instruccionesMedicamento,turno)
+    
+    
+def receta(n,f,d,nm,dm,im,t):
+    print("Nombre del paciente: ", n, "con fecha de nacimiento en",f)
+    print("Atendido en clinica: ",d)
+    print("MEDICAMENTO A USAR: ",nm,"Dosis que debe usar: ",dm,"Instrucciones de uso: ",im)
+    print("Cuando es su siguiente turno? ", t)
+    
+
+
+
+datos()
