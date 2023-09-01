@@ -1,0 +1,13 @@
+arb1=input("ingrese el nombre de arb1: ")
+arb2=input("ingrese el nombre de arb2: ")
+arb3=input("ingrese el nombre de arb3:")
+arb4=input("ingrese el nombre de arb4: ")
+cancha=input("ingrese el nombre de cancha local: ")
+dia=input("ingrese dia del partido : ")
+
+print("arb designado: ",arb1)
+print("arb designado: ",arb2)
+print("arb designado: ",arb3)
+print("arb designado: ",arb4)
+print("cancha local: ",cancha)
+print("dia del partido :",dia)
