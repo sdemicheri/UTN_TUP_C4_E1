@@ -4,7 +4,7 @@ arbitroPrincipal = input("Ingrese el nombre del árbitro principal: ")
 arbitroDeLinea1 = input("Ingrese el nombre del árbitro de linea 1: ")
 arbitroDeLinea2 = input("Ingrese el nombre del tercer árbitro de linea2: ")
 arbitroSuplente = input("Ingrese el nombre del cuarto árbitro suplente: ")
-cancha = input("Ingrese la cancha donde se realizará el partido")
+cancha = input("Ingrese la cancha donde se realizará el partido: ")
 fecha = input("Ingrese la fecha (dd/mm/aa): ")
 hora = input("Ingrese la hora (24hs): ")
 
@@ -24,9 +24,9 @@ def print_referees_names():
 
 def print_match_data():
     print(add_style_to_text(Style.BOLD + Style.BLUE,
-                            "\t⚽Cancha: {0} "
-                            "\n\t🚩Fecha: {1} "
-                            "\n\t🚩Hora del partido: {2} "
+                            "\t🥅Cancha: {0} "
+                            "\n\t🔶Fecha: {1} "
+                            "\n\t🕐Hora del partido: {2} "
                             .format(cancha, fecha, hora)))
 
 
