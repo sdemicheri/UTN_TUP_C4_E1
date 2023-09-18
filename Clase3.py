@@ -24,8 +24,8 @@ def separador():
 nombre = input("Ingrese el nombre del emplado:")
 mesCobro = input("Ingrese el mes de cobro:")
 yCobro = input("Ingrese el año de cobro:")
-hsT = int(input("Ingrese las horas trabajadas:"))
-costoHs = int(input("Ingrese el costo de las horas:"))
+hsT = float(input("Ingrese las horas trabajadas:"))
+costoHs = float(input("Ingrese el costo de las horas:"))
 pago = hsT*costoHs
 
 separador()
